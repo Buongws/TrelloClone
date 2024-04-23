@@ -1,6 +1,6 @@
 import React from "react";
-// import { Input } from "./ui/input";
-// import { Button } from "./ui/button";
+import { Input } from "./ui/input";
+import { Button } from "./ui/button";
 
 const Header = () => {
   return (
@@ -21,12 +21,12 @@ const Header = () => {
           <li>Unlimited cards</li>
           <li>Unlimited Power-Ups per board</li>
         </ul>
-        {/* <div className="flex w-full max-w-sm items-center space-x-2 mt-3">
+        <div className="flex w-full max-w-sm items-center space-x-2 mt-3">
           <Input type="email" placeholder="email" />
           <Button type="submit" className="bg-blue-600 text-white">
-            Sign up - it's free!
+            Sign up - its free!
           </Button>
-        </div> */}
+        </div>
       </div>
       <div>
         <img src="/header_img.jpg" alt="" />
